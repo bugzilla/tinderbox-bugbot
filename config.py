@@ -53,10 +53,10 @@ conf.registerGlobalValue(Tinderbox, 'pollTime',
     registry.PositiveInteger(300, """How long, in seconds, between times when
     the module should check for changes to the Tinderboxes."""))
 conf.registerGlobalValue(Tinderbox, 'tinderbox_username',
-    registry.String('http://tinderbox.mozilla.org/',
+    registry.String('bugbot@bugzilla.org/',
     """The Tinderbox bugbot username for site authentication."""))
 conf.registerGlobalValue(Tinderbox, 'tinderbox_password',
-    registry.String('http://tinderbox.mozilla.org/',
+    registry.String('password',
     """The Tinderbox bugbot password for site authentication."""))
 
 # vim:set shiftwidth=4 tabstop=4 expandtab textwidth=79:
